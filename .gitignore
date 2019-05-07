@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+web-automation.iml
+target/
+build/
+allure-report/
+allure-results/
