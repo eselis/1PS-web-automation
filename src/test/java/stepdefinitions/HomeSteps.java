@@ -1,11 +1,14 @@
 package stepdefinitions;
 
 import cucumber.api.java.en.Given;
+import static com.codeborne.selenide.Selenide.open;
+
 
 public class HomeSteps {
 
-    @Given("Homepage is opened")
-    public void homepageIsOpened() {
-        System.out.println("VERIFY HOMEPAGE IS OPENED");
+    @Given("I have started browser")
+    public void iHaveStartedBrowser() {
+        System.out.println("------------START BROWSER------------");
+        open("https://www.phptravels.net/");
     }
 }

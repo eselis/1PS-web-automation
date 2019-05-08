@@ -1,4 +1,4 @@
 Feature: Example scenarios
 
   Scenario: Load page successfully
-    Given Homepage is opened
+    Given I have started browser
