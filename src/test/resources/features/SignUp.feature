@@ -4,10 +4,11 @@ Feature: Creates account features
     Given homepage is opened
     When I select My Acoount button
     And I select Sign Up button
+    And I accept cookies
     And I enter first name
     And I enter last name
     And I enter mobile number
-    And I enter phone number
+    And I enter Email
     And I enter password
     And I enter password again
     And I select Sign up button
