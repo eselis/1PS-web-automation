@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 
 public class HomeStepDefinitions {
@@ -11,4 +12,7 @@ public class HomeStepDefinitions {
     }
 
 
+    @When("I select My Acoount button")
+    public void iSelectMyAcoountButton() {
+    }
 }
